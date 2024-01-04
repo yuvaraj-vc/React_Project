@@ -8,7 +8,7 @@ import Loging from './pages/Loging';
 
 
 import Dashboardx from "./pages/Dashboard";
-import Layout from "./pages/Layout";
+
 
 
 function App() {

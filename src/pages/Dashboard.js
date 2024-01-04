@@ -1,4 +1,4 @@
- import React, { useState, useEffect } from "react";
+ import React, { useState } from "react";
 // import { useDispatch } from "react-redux";
 // import { addCart } from "../redux/action";
 // import Skeleton from "react-loading-skeleton";
@@ -10,11 +10,11 @@ import { Link } from "react-router-dom";
 const Products = () => {
 
   
-    const [isSidebarOpen, setSidebarOpen] = useState(false);
+    const [isSidebarOpen] = useState(false);
   
-    const toggleSidebar = () => {
-      setSidebarOpen(!isSidebarOpen);
-    };
+    // const toggleSidebar = () => {
+    //   setSidebarOpen(!isSidebarOpen);
+    // };
   
     return (
       <div className="app-container">
